@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		345F30D5285798D10085643D /* Flights_ScreensaverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30D4285798D10085643D /* Flights_ScreensaverApp.swift */; };
-		345F30D7285798D10085643D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30D6285798D10085643D /* ContentView.swift */; };
 		345F30D9285798D20085643D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345F30D8285798D20085643D /* Assets.xcassets */; };
 		345F30DC285798D20085643D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345F30DB285798D20085643D /* Preview Assets.xcassets */; };
+		345F30E6285798EA0085643D /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30E2285798EA0085643D /* Flight.swift */; };
+		345F30E7285798EA0085643D /* FlightDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30E3285798EA0085643D /* FlightDirection.swift */; };
+		345F30E8285798EA0085643D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30E4285798EA0085643D /* ContentView.swift */; };
+		345F30E9285798EA0085643D /* FlightStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345F30E5285798EA0085643D /* FlightStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		345F30D1285798D10085643D /* Flights Screensaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flights Screensaver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345F30D4285798D10085643D /* Flights_ScreensaverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flights_ScreensaverApp.swift; sourceTree = "<group>"; };
-		345F30D6285798D10085643D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		345F30D8285798D20085643D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		345F30DB285798D20085643D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		345F30E2285798EA0085643D /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		345F30E3285798EA0085643D /* FlightDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDirection.swift; sourceTree = "<group>"; };
+		345F30E4285798EA0085643D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Developer/Lufthansa Flights/Lufthansa Flights/ContentView.swift"; sourceTree = "<group>"; };
+		345F30E5285798EA0085643D /* FlightStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightStore.swift; sourceTree = "<group>"; };
+		34EF937C2857A865008CD74F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 		345F30C8285798D10085643D = {
 			isa = PBXGroup;
 			children = (
+				34EF937C2857A865008CD74F /* README.md */,
 				345F30D3285798D10085643D /* Flights Screensaver */,
 				345F30D2285798D10085643D /* Products */,
 			);
@@ -52,7 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				345F30D4285798D10085643D /* Flights_ScreensaverApp.swift */,
-				345F30D6285798D10085643D /* ContentView.swift */,
+				345F30E4285798EA0085643D /* ContentView.swift */,
+				345F30E2285798EA0085643D /* Flight.swift */,
+				345F30E5285798EA0085643D /* FlightStore.swift */,
+				345F30E3285798EA0085643D /* FlightDirection.swift */,
 				345F30D8285798D20085643D /* Assets.xcassets */,
 				345F30DA285798D20085643D /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345F30D7285798D10085643D /* ContentView.swift in Sources */,
+				345F30E6285798EA0085643D /* Flight.swift in Sources */,
+				345F30E8285798EA0085643D /* ContentView.swift in Sources */,
+				345F30E9285798EA0085643D /* FlightStore.swift in Sources */,
 				345F30D5285798D10085643D /* Flights_ScreensaverApp.swift in Sources */,
+				345F30E7285798EA0085643D /* FlightDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
